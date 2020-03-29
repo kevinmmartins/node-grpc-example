@@ -1,7 +1,7 @@
 # node-grpc-example
 Simple Node application using [gRPC](https://grpc.io/)
 
-# Requirements
+## Requirements
    - node 12+
    - npm
 
