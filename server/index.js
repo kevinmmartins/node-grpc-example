@@ -2,7 +2,7 @@ import grpc from 'grpc'
 import { PEOPLE } from './constants'
 import uuidv1 from 'uuid/v1'
 
-const personProto = grpc.load('person.proto')
+const personProto = grpc.load('./server/person.proto')
 const server = new grpc.Server()
 server.addService(personProto.PersonService.service, {
     list: (_, callback) => {

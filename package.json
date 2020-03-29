@@ -2,9 +2,9 @@
   "name": "grpc-example",
   "version": "1.0.0",
   "description": "Simple Node application with gRPC",
-  "main": "index.js",
+  "main": "server/index.js",
   "scripts": {
-    "start": "node -r esm index.js"
+    "start": "node -r esm server/index.js"
   },
   "repository": {
     "type": "git",
