@@ -2,6 +2,7 @@ syntax = "proto3";
 
 service PersonService {
     rpc List (Empty) returns (PersonList) {}
+    rpc Insert (Person) returns (Person) {}
 }
 
 message Empty {}
