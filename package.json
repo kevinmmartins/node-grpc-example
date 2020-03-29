@@ -4,7 +4,9 @@
   "description": "Simple Node application with gRPC",
   "main": "server/index.js",
   "scripts": {
-    "start": "node -r esm server/index.js"
+    "start": "node -r esm server/index.js",
+    "insert-person": "node -r esm client/insert_person.js",
+    "list-person": "node -r esm client/get_person.js"
   },
   "repository": {
     "type": "git",
