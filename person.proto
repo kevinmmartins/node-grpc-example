@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+service PersonService {
+    rpc List (Empty) returns (PersonList) {}
+}
+
+message Empty {}
+
+message Person {
+    string id = 1;
+    string name = 2;
+    string nickname = 3;
+}
+
+message PersonList {
+   repeated Person people = 1;
+}

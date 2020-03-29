@@ -1,0 +1,28 @@
+{
+  "name": "grpc-example",
+  "version": "1.0.0",
+  "description": "Simple Node application with gRPC",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r esm index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinmmartins/node-grpc-example.git"
+  },
+  "keywords": [
+    "gRPC",
+    "node"
+  ],
+  "author": "kevinmmartins@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevinmmartins/node-grpc-example/issues"
+  },
+  "homepage": "https://github.com/kevinmmartins/node-grpc-example#readme",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "grpc": "^1.24.2",
+    "uuid": "^7.0.2"
+  }
+}
