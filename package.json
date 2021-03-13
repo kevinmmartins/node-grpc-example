@@ -24,7 +24,7 @@
   "homepage": "https://github.com/kevinmmartins/node-grpc-example#readme",
   "dependencies": {
     "esm": "^3.2.25",
-    "grpc": "^1.24.4",
+    "grpc": "^1.24.6",
     "uuid": "^8.3.2"
   }
 }
